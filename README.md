@@ -1,20 +1,43 @@
-# React + TypeScript + Vite
+# ⚛️ React + TypeScript + Vite — Mini Task Manager ⏳
 
-🧩 Task: Build a mini task management system with the following features:
+A sleek and minimal **Task Management System** built with **React**, **TypeScript**, and **Vite**.
 
-Add tasks with priority: Low, Medium, or High
+---
 
-Default priority is Low
+## ✨ Features
 
-Each task includes a countdown timer:
+📝 **Add Tasks** with a selected priority:
+- 🔴 High – ⏱️ 3 minutes
+- 🟠 Medium – ⏱️ 5 minutes
+- 🟢 Low – ⏱️ 7 minutes _(default)_
 
-Low – 7 minutes
+📋 **Tasks auto-sort** by the time left ⏳
 
-Medium – 5 minutes
+🚨 **When time runs out:**
+- Task **blinks briefly**
+- Then it is **auto-deleted**
 
-High – 3 minutes
+💻 Built using:
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
 
+---
 
-The list should auto-sort based on time left
+## 📸 Screenshots
 
-When a timer hits zero, the task should blink and then auto-delete
+| Add Task Form | Task List with Countdown |
+|---------------|--------------------------|
+| ![Add Task Screenshot](./screenshots/add-task.png) | ![Task List Screenshot](./screenshots/task-list.png) |
+
+> _Add your screenshots in a `screenshots/` folder for better visual presentation._
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repo
+
+```bash
+git clone https://github.com/shandude786/mini-task-management
+cd mini-task-management
