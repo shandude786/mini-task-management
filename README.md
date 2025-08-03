@@ -30,7 +30,6 @@ A sleek and minimal **Task Management System** built with **React**, **TypeScrip
 |---------------|--------------------------|
 | ![Add Task Screenshot](./screenshots/add-task.png) | ![Task List Screenshot](./screenshots/task-list.png) |
 
-> _Add your screenshots in a `screenshots/` folder for better visual presentation._
 
 ---
 
